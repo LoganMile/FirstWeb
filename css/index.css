@@ -1,0 +1,201 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+
+}
+
+main {
+    width: 100%;
+    height: calc(100vh - 10px);
+    background-color: rgb(255, 255, 255);
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+ font-size: 50px;
+ line-height: 45px;
+ color: rgb(0, 0, 0);
+ font-family: Roboto Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-weight: 100;
+ text-transform: uppercase;
+ border-left: 2px solid black;  
+ border-right: 2px solid black;
+ padding: 5px;
+}
+
+a {
+    cursor: pointer;
+  }
+
+  .Logos {
+    padding-top: 35px;
+    margin-left: 20px;
+    display: inline-block;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.Ikaria {
+    width: 200px;
+    height: 150px;
+    border-radius: 12px;
+    margin-left: 10px;
+}
+
+.Alpilean {
+    width: 60%;
+}
+
+h2 {
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.boxes .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    flex: 1;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 20px 10px;
+    padding: 15px 20px;
+    width: 50px;
+    line-height: 20px;
+}
+
+.Affiliate-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #b39eff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Style the link on hover */
+  .affiliate-link:hover {
+    background-color: #45a049;
+  }
+
+  .box-2{
+    background-color: rgb(0, 0, 0);
+    border: 3px dotted black;
+    padding: 20px;
+    margin: 20px 0;
+    line-height: 50px;
+  }
+
+  .box-2 h3{
+    color: azure;
+    font-size: 45px;
+    text-decoration: underline;
+    font-style: italic;
+  }
+
+  .Product{
+    font-size: 22px;
+    text-decoration: underline;
+    font-style: italic;
+  }
+  .box-2 p{
+    color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  @media(max-width: 768px) {
+    .main .container {
+      flex-direction: column;
+      padding-top: 20px;
+      text-align: center;
+    }
+
+    .boxes .container {
+      width: 100%;
+      display: block;
+    }
+    .box {
+      width: fit-content;
+    }
+
+    .header-main p {
+      display: none;
+    }
+
+    .Logos {
+      padding-top: 50px;
+    }
+  }
+  .index-about {
+    width: 100%;
+    padding: 60px 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.index-about-text {
+    flex-basis: 450px;
+    color: white;
+    padding: 20px;
+    border: 2px solid white;
+    margin-left: 10px;
+}
+
+.index-about-text h3 {
+    font-size: 26px;
+    color: white;
+    
+}
+
+.index-about-text p {
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.index-about-text a {
+    font-size: 18px;
+    display: block;
+    background-color: black;
+    padding: 10px 20px;
+    width: fit-content;
+}
+
+.index-about-text a:hover {
+    background-color: gray;
+}
+    
+.index-about-skill {
+    margin-left: 60px;
+    font-size: 28px;
+}
+
+.Forb {
+  text-decoration: underline;
+  margin-right: 30px;
+  font-size: 50px;
+  display: inline;
+  justify-content: left;
+  font-family: 'Courier New', Courier, monospace;
+}
